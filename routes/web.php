@@ -56,5 +56,5 @@ Route::middleware(['auth'])->group(function () {
 });
 
 Route::get('/contact', [ContactController::class, 'showForm'])->name('contact.form');
-Route::post('/contact', [ContactController::class, 'sendEmail'])->name('contact.send');
+Route::post('/contact/send', [ContactController::class, 'send'])->name('contact.send');
 

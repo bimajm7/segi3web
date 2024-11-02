@@ -230,7 +230,6 @@
                             <div class="btn-wrapper mt-0">
                                 <button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">Send</button>
                             </div>
-                            <p class="form-messege mb-0 mt-20"></p>
                         </form>
                     </div>
                 </div>

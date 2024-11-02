@@ -9,33 +9,40 @@ class ContactController extends Controller
 {
     public function showForm()
     {
-        return view('contact');  // Ini akan mengarahkan ke view contact.blade.php
+        return view('contact');  
     }
-    public function sendEmail(Request $request)
+
+    public function send(Request $request)
     {
-        $request->validate([
-            'name' => 'required',
+        // Validasi input form
+        $validated = $request->validate([
+            'name' => 'required|string|max:255',
             'email' => 'required|email',
-            'motor_type' => 'required',
-            'phone' => 'required',
-            'message' => 'required',
+            'motor_type' => 'required|string|max:255',
+            'phone' => 'required|string|max:20',
+            'message' => 'required|string',
         ]);
 
-        // Data email yang dikirim
-        $details = [
-            'name' => $request->name,
-            'email' => $request->email,
-            'motor_type' => $request->motor_type,
-            'phone' => $request->phone,
-            'message' => $request->message,
-        ];
+        // Set up the email content with all the required fields
+        $emailContent = "
+        Name : {$validated['name']}
+        Email : {$validated['email']}
+        Motorcycle Type : {$validated['motor_type']}
+        Phone : {$validated['phone']}
 
-        // Kirim email menggunakan view 'emails.contact'
-        Mail::send('contact', $details, function($message) use ($request) {
-            $message->to('luthfidika31@gmail.com')  // Ganti dengan email tujuan
-                    ->subject('New Contact Message from ' . $request->name);
+        Message:
+        {$validated['message']}
+        ";
+
+
+        // Send email
+        Mail::raw($emailContent, function($message) use ($validated) {
+            $message->to('luthfidika31@gmail.com')
+                    ->subject('SEGITIGA MOTOR')
+                    ->from($validated['email'], $validated['name']);
         });
 
-        return back()->with('success', 'Your message has been sent successfully!');
+        // Redirect or return response
+        return back()->with('success', 'Pesan berhasil dikirim!');
     }
 }
