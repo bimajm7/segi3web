@@ -60,11 +60,11 @@
                                     <ul>
                                         <li class="menu"><a href="/ ">Beranda</a>
                                         </li>
-                                        <li class="menu"><a href="/about">Tentang</a>
+                                        <li class="menu"><a href="about">Tentang</a>
                                         </li>
                                         <li class="menu"><a href="service">Servis</a>
                                         </li>
-                                        <li class="menu"><a href="product">Produk</a>
+                                        <li class="menu"><a href="/product">Produk</a>
                                         </li>
                                         <li class="menu"><a href="galeri">Galeri</a>
                                         </li>
