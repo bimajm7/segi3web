@@ -35,7 +35,7 @@
     <header class="ltn__header-area ltn__header-4 ltn__header-6 ltn__header-transparent gradient-color-2">
         <!-- ltn__header-middle-area start -->
         <div class="ltn__header-middle-area ltn__header-sticky ltn__sticky-bg-black ltn__logo-right-menu-option">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col">
                         <div class="site-logo-wrap">
@@ -137,7 +137,7 @@
 
     <!-- BREADCRUMB AREA START -->
     <div class="ltn__breadcrumb-area ltn__breadcrumb-area-2 ltn__breadcrumb-color-white bg-overlay-theme-black-90 bg-image" data-bs-bg="img/bg/bengkel.jpeg">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="ltn__breadcrumb-inner ltn__breadcrumb-inner-2 justify-content-between">
@@ -159,7 +159,7 @@
 
     <!-- ABOUT US AREA START -->
     <div class="ltn__about-us-area pt-120-- pb-120">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 align-self-center">
                     <div class="about-us-img-wrap about-img-left">
@@ -194,7 +194,7 @@
 
     <!-- FEATURE AREA START ( Feature - 6) -->
     <!-- <div class="ltn__feature-area section-bg-1 pt-115 pb-90">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title-area ltn__section-title-2 text-center">
@@ -250,7 +250,7 @@
 
     <!-- CALL TO ACTION START (call-to-action-5) -->
     <!-- <div class="call-to-action-area call-to-action-5 bg-image bg-overlay-theme-90 pt-40 pb-25" data-bs-bg="img/bg/13.jpg">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="call-to-action-inner call-to-action-inner-5 text-center">
@@ -264,7 +264,7 @@
 
     <!-- PROGRESS BAR AREA START -->
     <!-- <div class="ltn__progress-bar-area before-bg-right pt-115 pb-95">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="ltn__progress-bar-wrap">
@@ -409,7 +409,7 @@
 
     <!-- BLOG AREA START (blog-4) -->
     <div class="ltn__blog-area pt-0 pb-90">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title-area ltn__section-title-2 text-center">
@@ -450,7 +450,7 @@
     <!-- FOOTER AREA START (ltn__footer-2 ltn__footer-color-1) -->
     <footer class="ltn__footer-area ltn__footer-2 ltn__footer-color-1">
         <div class="footer-top-area  section-bg-2">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-xl-4 col-md-5">
                         <div class="footer-widget ltn__footer-timeline-widget ltn__footer-timeline-widget-1 bg-image bg-overlay-theme-black-90">
@@ -504,7 +504,7 @@
             </div>
         </div>
         <div class="ltn__copyright-area ltn__copyright-2">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 col-12">
                         <div class="site-logo-wrap">
