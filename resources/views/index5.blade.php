@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html class="no-js" lang="zxx">
 
@@ -35,7 +36,7 @@
     <header class="ltn__header-area ltn__header-4 ltn__header-6 ltn__header-transparent gradient-color-2">
         <!-- ltn__header-middle-area start -->
         <div class="ltn__header-middle-area ltn__header-sticky ltn__sticky-bg-black ltn__logo-right-menu-option">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
                     <div class="col">
                         <div class="site-logo-wrap">
@@ -170,7 +171,7 @@
             <!-- ltn__slide-item -->
             <div class="ltn__slide-item ltn__slide-item-2 ltn__slide-item-7 bg-image--- bg-overlay-theme-black-30" data-bs-bg="/img/slider/41.jpg">
                 <div class="ltn__slide-item-inner text-center">
-                    <div class="container-fluid">
+                    <div class="container">
                         <div class="row">
                             <div class="col-lg-12 align-self-center">
                                 <div class="slide-item-info">
@@ -189,7 +190,7 @@
 
     <!-- ABOUT US AREA START -->
     <div class="ltn__about-us-area pt-80 pb-85">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-6 align-self-center">
                     <div class="about-us-img-wrap about-img-left">
@@ -271,7 +272,7 @@
 
     <!-- WHY CHOOSE US AREA START -->
     <div class="ltn__why-choose-us-area section-bg-1 pt-120 pb-120">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="why-choose-us-info-wrap">
@@ -323,7 +324,7 @@
 
     <!-- PRICING PLAN AREA START -->
     <!-- <div class="ltn__pricing-plan-area pt-115 pb-120" id="liton_pricing">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title-area ltn__section-title-2 text-center">
@@ -398,7 +399,7 @@
 
     <!-- SERVICE AREA START (Service 1) -->
     <div class="ltn__service-area ltn__primary-bg before-bg-1 pt-115 pb-70">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title-area ltn__section-title-2 text-center">
@@ -445,7 +446,7 @@
 
     <!-- PRODUCT TAB AREA START (product-item-3) -->
     <!-- <div class="ltn__product-tab-area ltn__product-gutter pt-115 pb-70">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title-area ltn__section-title-2">
@@ -962,7 +963,7 @@
 
     <!-- CALL TO ACTION START (call-to-action-2) -->
     <!-- <div class="ltn__call-to-action-area call-to-action-2 pt-20 pb-20" data-bs-bg="img/1.jpg--">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="call-to-action-inner call-to-action-inner-2 text-center">
@@ -979,7 +980,7 @@
 
     <!-- FEATURE AREA START ( Feature - 3) -->
     <!-- <div class="ltn__feature-area pt-115 pb-80">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title-area ltn__section-title-2 section-title-style-3">
@@ -1086,7 +1087,7 @@
 
     <!-- IMAGE SLIDER AREA START (img-slider-2) -->
     <div class="ltn__img-slider-area ltn__img-slider-2 section-bg-1 pt-0 pb-150">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title-area ltn__section-title-2 text-center">
@@ -1279,7 +1280,7 @@
 
     <!-- BLOG AREA START (blog-3) -->
     <div class="ltn__blog-area bg-image-top pt-115 " data-bs-bg="img/bg/3.jpg">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title-area ltn__section-title-2">
@@ -1501,7 +1502,7 @@
     <!-- FOOTER AREA START (ltn__footer-2 ltn__footer-color-1) -->
     <footer class="ltn__footer-area ltn__footer-2 ltn__footer-color-1">
         <div class="footer-top-area  section-bg-2">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
                     <div class="col-xl-4 col-md-5">
                         <div class="footer-widget ltn__footer-timeline-widget ltn__footer-timeline-widget-1 bg-image bg-overlay-theme-black-90" data-bs-bg="img/IMG_1293.jpg">
@@ -1555,7 +1556,7 @@
             </div>
         </div>
         <div class="ltn__copyright-area ltn__copyright-2">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-12">
                         <div class="site-logo-wrap">
@@ -1607,4 +1608,3 @@
   
 </body>
 </html>
-

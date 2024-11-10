@@ -34,7 +34,11 @@
 
         <!-- LOGIN AREA START (Register) -->
         <div class="ltn__login-area pb-110">
+
+            <div class="container">
+
             <div class="container-fluid">
+
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-title-area text-center">
