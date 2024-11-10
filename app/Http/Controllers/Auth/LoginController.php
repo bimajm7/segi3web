@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
-use App\Http\Controllers\Controller; // Memperbaiki kesalahan pengetikan di sini
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
@@ -25,25 +25,32 @@ class LoginController extends Controller
         // Coba untuk login
         if (Auth::attempt(['email' => $request->email, 'password' => $request->password])) {
             // Jika login sukses
-            $user = Auth::user(); // Ambil user yang sedang login
+            $user = Auth::user();
 
-            // Periksa role
+            // Periksa role dan arahkan ke halaman yang sesuai dengan pesan sukses
             if ($user->role == 'admin') {
-                return redirect()->route('admin'); // Arahkan ke halaman admin
-            } elseif ($user->role == 'user') { // Menggunakan elseif untuk konsistensi
-                return redirect()->route('index5'); // Arahkan ke halaman index5
+                return redirect()->route('admin')->with('status', 'Login berhasil sebagai Admin.');
+            } elseif ($user->role == 'user') {
+                return redirect()->route('index5')->with('status', 'Login berhasil sebagai User.');
             }
         } else {
             // Jika login gagal
+            $error = 'Email atau password salah. Silakan coba lagi.';
+            
+            // Cek jika email tidak terdaftar
+            if (!User::where('email', $request->email)->exists()) {
+                $error = 'Email tidak terdaftar. Silakan daftar terlebih dahulu.';
+            }
+
             return back()->withErrors([
-                'email' => 'Email atau password salah',
-            ]);
+                'email' => $error,
+            ])->withInput($request->only('email'));
         }
     }
 
     public function logout()
     {
         Auth::logout();
-        return redirect()->route('login'); // Menghapus duplikasi pengalihan
+        return redirect()->route('login')->with('status', 'Logout berhasil.');
     }
 }
