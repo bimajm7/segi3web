@@ -62,8 +62,8 @@ font-family: 'Rajdhani', sans-serif;
 ==================================================== */
 .container,
 .container-fluid {
-  padding-right: 15px;
-  padding-left: 15px; }
+  padding-right: 65px;
+  padding-left: 65px; }
 
 .row {
   margin-left: 100px;
