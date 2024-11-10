@@ -2,9 +2,9 @@
 <html class="no-js" lang="zxx">
 
 <head>
-<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title> Penjadwalan - Segitiga Motor</title>
+    <title>Galeri - Segitiga - Motor</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -35,12 +35,12 @@
     <header class="ltn__header-area ltn__header-4 ltn__header-6 ltn__header-transparent gradient-color-2">
         <!-- ltn__header-middle-area start -->
         <div class="ltn__header-middle-area ltn__header-sticky ltn__sticky-bg-black ltn__logo-right-menu-option">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col">
                         <div class="site-logo-wrap">
                             <div class="site-logo">
-                                <a href="index-5.html"><img src="img/logo-2.png" alt="Logo"></a>
+                                <a href="/ "><img src="img/logo-2.png" alt="Logo"></a>
                             </div>
                             <div class="get-support clearfix get-support-color-white">
                                 <div class="get-support-icon">
@@ -58,7 +58,7 @@
                             <nav>
                                 <div class="ltn__main-menu">
                                     <ul>
-                                    <li class="menu"><a href="/ ">Beranda</a>
+                                        <li class="menu"><a href="/ ">Beranda</a>
                                         </li>
                                         <li class="menu"><a href="/about">Tentang</a>
                                         </li>
@@ -71,12 +71,13 @@
                                         <li class="menu"><a href="blog">Artikel</a>
                                         </li>
                                         <li><a href="contact">Kontak</a></li>
-                                        <li class="special-link"><a href="booking">PENJADWALAN</a></li>
+                                        <li class="special-link"><a href="booking">Penjadwalan</a></li>
                                     </ul>
                                 </div>
                             </nav>
                         </div>
                     </div>
+    
                     <!-- Mobile Menu Button -->
                     <div class="mobile-menu-toggle menu-btn-white menu-btn-border--- d-xl-none">
                         <a href="#ltn__utilize-mobile-menu" class="ltn__utilize-toggle">
@@ -98,7 +99,7 @@
         <div class="ltn__utilize-menu-inner ltn__scrollbar">
             <div class="ltn__utilize-menu-head">
                 <div class="site-logo">
-                    <a href="index-5.html"><img src="img/logo-2.png" alt="Logo"></a>
+                    <a href="/ "><img src="img/logo-2.png" alt="Logo"></a>
                 </div>
                 <button class="ltn__utilize-close">×</button>
             </div>
@@ -136,19 +137,18 @@
     <div class="ltn__utilize-overlay"></div>
 
     <!-- BREADCRUMB AREA START -->
-    <div class="ltn__breadcrumb-area ltn__breadcrumb-area-2 ltn__breadcrumb-color-white bg-overlay-theme-black-90 bg-image" data-bs-bg="img/IMG_1233.jpg">
-        <div class="container">
+    <div class="ltn__breadcrumb-area ltn__breadcrumb-area-2 ltn__breadcrumb-color-white bg-overlay-theme-black-90 bg-image" data-bs-bg="img/IMG_1229.jpg">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="ltn__breadcrumb-inner ltn__breadcrumb-inner-2 justify-content-between">
                         <div class="section-title-area ltn__section-title-2">
-                            <h6 class="section-subtitle ltn__secondary-color">//  Selamat Datang di Bengkel Kami</h6>
-                            <h1 class="section-title white-color">Jadwal</h1>
+                            <h1 class="section-title white-color">Galeri</h1>
                         </div>
                         <div class="ltn__breadcrumb-list">
                             <ul>
-                                <li><a href="index.html">Beranda</a></li>
-                                <li>Penjadwalan</li>
+                                <li><a href="/ ">Beranda</a></li>
+                                <li>Galeri</li>
                             </ul>
                         </div>
                     </div>
@@ -158,92 +158,181 @@
     </div>
     <!-- BREADCRUMB AREA END -->
 
-    <!-- APPOINTMENT AREA START -->
-    <div class="ltn__appointment-area pb-120">
-        <div class="container">
+    <!-- Gallery area start -->
+    <div class="ltn__gallery-area mb-120">
+        <div class="container-fluid">
+            <!--
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="ltn__appointment-inner">
-                    <form action="{{ route('bookings') }}" method="POST">
-                        @csrf
-                        <h6>Informasi Kendaraan</h6>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="input-item input-item-name ltn__custom">
-                                    <input type="text" name="ltn__name" placeholder="Plat No Motor" required>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="input-item input-item-name ltn__custom-icon">
-                                    <input type="text" name="ltn__lastname" placeholder="Merk Motor" required>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="input-item input-item-email ltn__custom-icon">
-                                    <input type="text" name="ltn__email" placeholder="Tipe Motor" required>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="input-item input-item ltn__custom-icon">
-                                    <input type="text" name="service_type" placeholder="Tipe Servis" required>
-                                </div>
-                            </div>
+                    <div class="ltn__gallery-menu">
+                        <div class="ltn__gallery-filter-menu portfolio-filter text-uppercase mb-50">
+                            <button data-filter="*" class="active">all</button>
+                            <button data-filter=".filter_category_1">White</button>
+                            <button data-filter=".filter_category_2">Red</button>
+                            <button data-filter=".filter_category_3">Black</button>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <h6>Pilihan Pertama</h6>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="input-item ltn__datepicker">
-                                            <input type="date" name="booking_date" class="form-control" placeholder="Tanggal" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="input-item input-item-time">
-                                            <select name="booking_time" class="nice-select" required>
-                                                <option value="">Waktu</option>
-                                                <option value="09:00">9:00</option>
-                                                <option value="10:00">10:00</option>
-                                                <option value="11:00">11:00</option>
-                                                <option value="12:00">12:00</option>
-                                                <option value="13:00">13:00</option>
-                                                <option value="14:00">14:00</option>
-                                                <option value="15:00">15:00</option>
-                                                <option value="16:00">16:00</option>
-                                                <option value="17:00">17:00</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="input-item input-item-phone ltn__custom-icon">
-                                            <input type="text" name="phone" placeholder="No Telepon" required>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <h6>Catatan</h6>
-                        <div class="input-item input-item-textarea ltn__custom-icon">
-                            <textarea name="ltn__message" placeholder="Enter message"></textarea>
-                        </div>
-                        <div class="btn-wrapper text-center mt-0">
-                            <button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">Kirim Sekarang</button>
-                        </div>
-                    </form>
                     </div>
                 </div>
             </div>
+            -->
+
+            <!-- Portfolio Wrapper Start -->
+            <!-- (ltn__gallery-info-hide) Class for 'ltn__gallery-item-info' not showing -->
+            <div class="ltn__gallery-active row ltn__gallery-style-2 ltn__gallery-info-hide---">
+                <div class="ltn__gallery-sizer col-1"></div>
+
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_3 col-lg-4 col-sm-6 col-12">
+                    <div class="ltn__gallery-item-inner">
+                        <div class="ltn__gallery-item-img">
+                            <a href="img/IMG_1292.jpg" data-rel="lightcase:myCollection">
+                                <img src="img/IMG_1292.jpg" alt="Image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_3 col-lg-4 col-sm-6 col-12">
+                    <div class="ltn__gallery-item-inner">
+                        <div class="ltn__gallery-item-img">
+                            <a href="img/turun_mesin.jpg" data-rel="lightcase:myCollection">
+                                <img src="img/turun_mesin.jpg" alt="Image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_3 col-lg-4 col-sm-6 col-12">
+                    <div class="ltn__gallery-item-inner">
+                        <div class="ltn__gallery-item-img">
+                            <a href="img/injeksi.jpg" data-rel="lightcase:myCollection">
+                                <img src="img/injeksi.jpg" alt="Image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_3 col-lg-4 col-sm-6 col-12">
+                    <div class="ltn__gallery-item-inner">
+                        <div class="ltn__gallery-item-img">
+                            <a href="img/IMG_1221.jpg" data-rel="lightcase:myCollection">
+                                <img src="img/IMG_1221.jpg" alt="Image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_3 col-lg-4 col-sm-6 col-12">
+                    <div class="ltn__gallery-item-inner">
+                        <div class="ltn__gallery-item-img">
+                            <a href="img/IMG_1253.jpg" data-rel="lightcase:myCollection">
+                                <img src="img/IMG_1253.jpg" alt="Image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_3 col-lg-4 col-sm-6 col-12">
+                    <div class="ltn__gallery-item-inner">
+                        <div class="ltn__gallery-item-img">
+                            <a href="img/IMG_1233.jpg" data-rel="lightcase:myCollection">
+                                <img src="img/IMG_1233.jpg" alt="Image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_3 col-lg-4 col-sm-6 col-12">
+                    <div class="ltn__gallery-item-inner">
+                        <div class="ltn__gallery-item-img">
+                            <a href="img/IMG_1311.jpg" data-rel="lightcase:myCollection">
+                                <img src="img/IMG_1311.jpg" alt="Image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_3 col-lg-4 col-sm-6 col-12">
+                    <div class="ltn__gallery-item-inner">
+                        <div class="ltn__gallery-item-img">
+                            <a href="img/IMG_1234.jpg" data-rel="lightcase:myCollection">
+                                <img src="img/IMG_1234.jpg" alt="Image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_3 col-lg-4 col-sm-6 col-12">
+                    <div class="ltn__gallery-item-inner">
+                        <div class="ltn__gallery-item-img">
+                            <a href="img/IMG_1289.jpg" data-rel="lightcase:myCollection">
+                                <img src="img/IMG_1289.jpg" alt="Image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_3 col-lg-4 col-sm-6 col-12">
+                    <div class="ltn__gallery-item-inner">
+                        <div class="ltn__gallery-item-img">
+                            <a href="img/IMG_1299.jpg" data-rel="lightcase:myCollection">
+                                <img src="img/IMG_1299.jpg" alt="Image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_3 col-lg-4 col-sm-6 col-12">
+                    <div class="ltn__gallery-item-inner">
+                        <div class="ltn__gallery-item-img">
+                            <a href="img/IMG_1300.jpg" data-rel="lightcase:myCollection">
+                                <img src="img/IMG_1300.jpg" alt="Image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_3 col-lg-4 col-sm-6 col-12">
+                    <div class="ltn__gallery-item-inner">
+                        <div class="ltn__gallery-item-img">
+                            <a href="img/IMG_1229.jpg" data-rel="lightcase:myCollection">
+                                <img src="img/IMG_1229.jpg" alt="Image">
+                            </a>
+                        </div>
+                    </div>
+                </div>              
+            </div>
+            <!-- pagination start -->
+            <!-- 
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ltn__pagination text-center margin-top-50">
+                        <ul>
+                            <li class="arrow-icon"><a href="#"> &leftarrow; </a></li>
+                            <li class="active"><a href="blog">1</a></li>
+                            <li><a href="blog-2">2</a></li>
+                            <li><a href="blog-2">3</a></li>
+                            <li><a href="blog-2">...</a></li>
+                            <li><a href="blog-2">10</a></li>
+                            <li class="arrow-icon"><a href="#"> &rightarrow; </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            -->
+            <!-- pagination end -->
+
         </div>
     </div>
-    <!-- APPOINTMENT AREA END -->
-
+    <!-- Gallery area end -->
+    
     <!-- FOOTER AREA START (ltn__footer-2 ltn__footer-color-1) -->
     <footer class="ltn__footer-area ltn__footer-2 ltn__footer-color-1">
         <div class="footer-top-area  section-bg-2">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-xl-4 col-md-5">
-                        <div class="footer-widget ltn__footer-timeline-widget ltn__footer-timeline-widget-1 bg-image bg-overlay-theme-black-90" data-bs-bg="img/bg/4.jpg">
+                        <div class="footer-widget ltn__footer-timeline-widget ltn__footer-timeline-widget-1 bg-image bg-overlay-theme-black-90">
                             <h6 class="ltn__secondary-color text-uppercase">// Jadwal dan waktu</h6>
                             <h4 class="footer-title">Buka di waktu.</h4>
                             <ul>
@@ -294,7 +383,7 @@
             </div>
         </div>
         <div class="ltn__copyright-area ltn__copyright-2">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 col-12">
                         <div class="site-logo-wrap">
@@ -336,4 +425,3 @@
   
 </body>
 </html>
-
