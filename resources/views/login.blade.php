@@ -38,8 +38,8 @@
                     <div class="col-lg-12">
                         <div class="section-title-area text-center">
                             <!-- Tambahkan elemen img di sini -->
-                            <img src="img/logo-2.png" alt="Logo" class="logo"
-                                style="max-width: 200px; max-height: 200px; margin-bottom: 20px; margin-top: 100px;">
+                            <a href="/ "><img src="img/logo-2.png" alt="Logo" class="logo"
+                                style="max-width: 200px; max-height: 200px; margin-bottom: 20px; margin-top: 100px;"></a>
                             <!-- Sesuaikan path dan ukuran logo -->
                             <h1 class="section-title">Masuk<br>ke Akun Anda</h1>
                             <p>Masuk untuk menikmati pengalaman terbaik di platform kami.</p>
