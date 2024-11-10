@@ -19,7 +19,8 @@ class DatabaseSeeder extends Seeder
             'role'=>"admin",
             'email' => "segitigamotor024@gmail.com",
             'email_verified_at' => now(),  // Menggunakan now() untuk verifikasi email
-            'password' => "segitigamotoraja",
+            'password' => bcrypt('segitigamotoraja'),
+
 
         ]);
     }
