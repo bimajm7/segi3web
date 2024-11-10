@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Segitiga Motor</title>
+    <title>Apa Tanda Dibutuhkan Servis Besar Motor, dan Bagaimana Prosesnya?</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -58,20 +58,20 @@
                             <nav>
                                 <div class="ltn__main-menu">
                                     <ul>
-                                        <li class="menu"><a href="/ ">Home</a>
+                                    <li class="menu"><a href="/ ">Beranda</a>
                                         </li>
-                                        <li class="menu"><a href="/about">About</a>
+                                        <li class="menu"><a href="/about">Tentang</a>
                                         </li>
-                                        <li class="menu"><a href="/service">Services</a>
+                                        <li class="menu"><a href="service">Servis</a>
                                         </li>
-                                        <li class="menu"><a href="shopcargrid">Product</a>
+                                        <li class="menu"><a href="product">Produk</a>
                                         </li>
-                                        <li class="menu"><a href="/portofolio">Gallery</a>
+                                        <li class="menu"><a href="galeri">Galeri</a>
                                         </li>
-                                        <li class="menu"><a href="/blog">Article</a>
+                                        <li class="menu"><a href="blog">Artikel</a>
                                         </li>
-                                        <li><a href="/contact">Contact</a></li>
-                                        <li class="special-link"><a href="booking">GET APPOINTMENT</a></li>
+                                        <li><a href="contact">Kontak</a></li>
+                                        <li class="special-link "><a href="booking">Penjadwalan</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -104,19 +104,19 @@
             </div>
             <div class="ltn__utilize-menu">
                 <ul>
-                    <li><a href="/ ">Home</a>
+                    <li><a href="/">Beranda</a>
                     </li>
-                    <li><a href="about">About</a>
+                    <li><a href="about">Tentang</a>
                     </li>
-                    <li><a href="service">Services</a>
+                    <li><a href="service">Servis</a>
                     </li>
-                    <li><a href="shopcargrid">Product</a>
+                    <li><a href="product">Produk</a>
                     </li>
-                    <li><a href="portofolio">Gallery</a>
+                    <li><a href="galeri">Galeri</a>
                     </li>
-                    <li><a href="blog">Article</a>
+                    <li><a href="blog-grid">Artikel</a>
                     </li>
-                    <li><a href="contact">Contact</a></li>
+                    <li><a href="contact">Kontak</a></li>
                 </ul>
             </div>
             <div class="ltn__social-media-2">
@@ -143,7 +143,7 @@
                         </div>
                         <div class="ltn__breadcrumb-list">
                             <ul>
-                                <li><a href="/ ">Home</a></li>
+                                <li><a href="/ ">Beranda</a></li>
                                 <li><a href="blog"></a>Artikel</li>
                             </ul>
                         </div>
@@ -235,12 +235,19 @@
             </div>
             <div class="ltn__utilize-menu">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Pages</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="/">Beranda</a>
+                    </li>
+                    <li><a href="about">Tentang</a>
+                    </li>
+                    <li><a href="service">Servis</a>
+                    </li>
+                    <li><a href="product">Produk</a>
+                    </li>
+                    <li><a href="galeri">Galeri</a>
+                    </li>
+                    <li><a href="blog-grid">Artikel</a>
+                    </li>
+                    <li><a href="contact">Kontak</a></li>
                 </ul>
             </div>
             <div class="ltn__utilize-buttons ltn__utilize-buttons-2">
@@ -250,7 +257,7 @@
                             <span class="utilize-btn-icon">
                                 <i class="far fa-user"></i>
                             </span>
-                            My Account
+                            Akun Saya
                         </a>
                     </li>
                     <li>
@@ -259,7 +266,7 @@
                                 <i class="far fa-heart"></i>
                                 <sup>3</sup>
                             </span>
-                            Wishlist
+                            List permintaan
                         </a>
                     </li>
                     <li>
@@ -268,7 +275,7 @@
                                 <i class="fas fa-shopping-cart"></i>
                                 <sup>5</sup>
                             </span>
-                            Shoping Cart
+                            Keranjang Belanja
                         </a>
                     </li>
                 </ul>
@@ -290,28 +297,22 @@
     <div class="ltn__page-details-area ltn__blog-details-area mb-120">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-12">
                     <div class="ltn__blog-details-wrap">
                         <div class="ltn__page-details-inner ltn__blog-details-inner">
                             <div class="ltn__blog-meta">
-                                <ul>
-                                    <li class="ltn__blog-category">
-                                        <a href="#">Business</a>
-                                    </li>
-                                </ul>
+                                
                             </div>
                             <h2 class="ltn__blog-title">Apa Tanda Dibutuhkan Servis Besar Motor, dan Bagaimana Prosesnya?</h2>
                             <div class="ltn__blog-meta">
                                 <ul>
                                     <li class="ltn__blog-author">
-                                        <a href="#"><img src="img/blog/26.jpg" alt="#">By: PlanetBan</a>
+                                        <a href="#"><img src="img/blog/26.jpg" alt="#">Oleh: PlanetBan</a>
                                     </li>
                                     <li class="ltn__blog-date">
                                         <i class="far fa-calendar-alt"></i>17 Oktober, 2024
                                     </li>
-                                    <li>
-                                        <a href="#"><i class="far fa-comments"></i>35 Comments</a>
-                                    </li>
+                                   
                                 </ul>
                             </div>
                             <p>Setiap sepeda motor memerlukan servis besar pada titik tertentu dalam penggunaannya. Namun, kapan sebaiknya servis besar motor ini dilakukan? </p>
@@ -345,21 +346,21 @@
                         <!-- blog-tags-social-media -->
                         <div class="ltn__blog-tags-social-media mt-80 row">
                             <div class="ltn__tagcloud-widget col-lg-8">
-                                <h4>Releted Tags</h4>
+                                <h4>Tag terkait</h4>
                                 <ul>
                                     <li>
-                                        <a href="#">Popular</a>
+                                        <a >Waktu</a>
                                     </li>
                                     <li>
-                                        <a href="#">Business</a>
+                                        <a >Servis</a>
                                     </li>
                                     <li>
-                                        <a href="#">ux</a>
+                                        <a >Mesin</a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="ltn__social-media text-right text-end col-lg-4">
-                                <h4>Social Share</h4>
+                                <h4>Sosial berbargi</h4>
                                 <ul>
                                     <li><a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
                                     <li><a href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
@@ -371,36 +372,27 @@
                         </div>
                         <hr>
                         <!-- prev-next-btn -->
-                        <div class="ltn__prev-next-btn row mb-50">
-                            <div class="blog-prev col-lg-6">
-                                <h6>Prev Post</h6>
-                                <h3 class="ltn__blog-title"><a href="#">Tips On Minimalist</a></h3>
-                            </div>
-                            <div class="blog-prev blog-next text-right text-end col-lg-6">
-                                <h6>Next Post</h6>
-                                <h3 class="ltn__blog-title"><a href="#">Less Is More</a></h3>
-                            </div>
-                        </div>
+                        
                         <hr>
                         <!-- related-post -->
                         <div class="related-post-area mb-50">
-                            <h4 class="title-2">Related Post</h4>
+                            <h4 class="title-2">Post Terkait</h4>
                             <div class="row">
                                 <div class="col-md-6">
                                     <!-- Blog Item -->
                                     <div class="ltn__blog-item ltn__blog-item-6">
                                         <div class="ltn__blog-img">
-                                            <a href="blog-details.html"><img src="img\blog\22.jpg" alt="Image"></a>
+                                            <a href="blog7"><img src="img\blog\27.jpg" alt="Image"></a>
                                         </div>
                                         <div class="ltn__blog-brief">
                                             <div class="ltn__blog-meta">
                                                 <ul>
                                                     <li class="ltn__blog-date ltn__secondary-color">
-                                                        <i class="far fa-calendar-alt"></i>23 Juli 2022
+                                                        <i class="far fa-calendar-alt"></i>20 November, 2023
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <h3 class="ltn__blog-title"><a href="blog-details2.html">Tips Perawatan Sepeda Motor yang Wajib Anda Lakukan</a></h3>
+                                            <h3 class="ltn__blog-title"><a href="blog7">Duh Gawat, Ini 6 Hal yang Bikin Motor Gampang Turun Mesin!</a></h3>
                                         </div>
                                     </div>
                                 </div>
@@ -408,94 +400,24 @@
                                     <!-- Blog Item -->
                                     <div class="ltn__blog-item ltn__blog-item-6">
                                         <div class="ltn__blog-img">
-                                            <a href="blog-details.html"><img src="img\blog\23.jpg" alt="Image"></a>
+                                            <a href="blog8"><img src="img\blog\28.jpg" alt="Image"></a>
                                         </div>
                                         <div class="ltn__blog-brief">
                                             <div class="ltn__blog-meta">
                                                 <ul>
                                                     <li class="ltn__blog-date ltn__secondary-color">
-                                                        <i class="far fa-calendar-alt"></i>7 Juli 2018
+                                                        <i class="far fa-calendar-alt"></i>26 Desember 2019
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <h3 class="ltn__blog-title"><a href="blog-details3.html">6 Hal Yang Harus Diperhatikan Saat Servis Motor</a></h3>
+                                            <h3 class="ltn__blog-title"><a href="blog8">Apa yang Dilakukan Ketika Tune Up pada Mesin Motor?</a></h3>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!-- comment-area -->
-                        <div class="ltn__comment-area mb-50">
-                            <h4 class="title-2">03 Comments</h4>
-                            <div class="ltn__comment-inner">
-                                <ul>
-                                    <li>
-                                        <div class="ltn__comment-item clearfix">
-                                            <div class="ltn__commenter-img">
-                                                <img src="img\person1.jpg"" alt="Image">
-                                            </div>
-                                            <div class="ltn__commenter-comment">
-                                                <h6><a href="#">Naufal</a></h6>
-                                                <span class="comment-date">20th May 2020</span>
-                                                <p>nice article</p>
-                                                <a href="#" class="ltn__comment-reply-btn"><i class="icon-reply-1"></i>Reply</a>
-                                            </div>
-                                        </div>
-                                        <ul>
-                                            <li>
-                                                <div class="ltn__comment-item clearfix">
-                                                    <div class="ltn__commenter-img">
-                                                        <img src="img\person2.jpg"" alt="Image">
-                                                    </div>
-                                                    <div class="ltn__commenter-comment">
-                                                        <h6><a href="#">Ilham</a></h6>
-                                                        <span class="comment-date">21th May 2020</span>
-                                                        <p>Nice info</p>
-                                                        <a href="#" class="ltn__comment-reply-btn"><i class="icon-reply-1"></i>Reply</a>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <div class="ltn__comment-item clearfix">
-                                            <div class="ltn__commenter-img">
-                                                <img src="img\person1.jpg" alt="Image">
-                                            </div>
-                                            <div class="ltn__commenter-comment">
-                                                <h6><a href="#">Gheril</a></h6>
-                                                <span class="comment-date">25th May 2020</span>
-                                                <p>nice to read</p>
-                                                <a href="#" class="ltn__comment-reply-btn"><i class="icon-reply-1"></i>Reply</a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <hr>
-                        <!-- comment-reply -->
-                        <div class="ltn__comment-reply-area ltn__form-box mb-60---">
-                            <h4 class="title-2">Post Comment</h4>
-                            <form action="#">
-                                <div class="input-item input-item-textarea ltn__custom-icon">
-                                    <textarea placeholder="Type your comments...."></textarea>
-                                </div>
-                                <div class="input-item input-item-name ltn__custom-icon">
-                                    <input type="text" placeholder="Type your name....">
-                                </div>
-                                <div class="input-item input-item-email ltn__custom-icon">
-                                    <input type="email" placeholder="Type your email....">
-                                </div>
-                                <div class="input-item input-item-website ltn__custom-icon">
-                                    <input type="text" name="website" placeholder="Type your website....">
-                                </div>
-                                <label class="mb-0 input-info-save"><input type="checkbox" name="agree"> Save my name, email, and website in this browser for the next time I comment.</label>
-                                <div class="btn-wrapper">
-                                    <button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit"><i class="far fa-comments"></i> Post Comment</button>
-                                </div>
-                            </form>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -556,17 +478,17 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xl-4 col-md-5">
-                        <div class="footer-widget ltn__footer-timeline-widget ltn__footer-timeline-widget-1 bg-image bg-overlay-theme-black-90" data-bs-bg="img/IMG_1293.jpg">
-                            <h6 class="ltn__secondary-color text-uppercase">// time shedule</h6>
-                            <h4 class="footer-title">Meet In Timeline.</h4>
+                        <div class="footer-widget ltn__footer-timeline-widget ltn__footer-timeline-widget-1 bg-image bg-overlay-theme-black-90">
+                            <h6 class="ltn__secondary-color text-uppercase">// Jadwal dan waktu</h6>
+                            <h4 class="footer-title">Buka di waktu.</h4>
                             <ul>
-                                <li>Everyday <span>07:00AM - 20:00PM</span></li>
+                                <li>Setiap hari <span>07:00AM - 20:00PM</span></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-5 col-md-7">
                         <div class="footer-widget footer-menu-widget footer-menu-widget-2-column clearfix">
-                            <h4 class="footer-title">Services.</h4>
+                            <h4 class="footer-title">Servis.</h4>
                             <div class="footer-menu">
                                 <ul>
                                     <li><a href="service">Servis CVT</a></li>
@@ -583,23 +505,23 @@
                     </div>
                     <div class="col-xl-3 col-md-6">
                         <div class="footer-widget footer-blog-widget">
-                            <h4 class="footer-title">News Feeds.</h4>
+                            <h4 class="footer-title">Umpan berita.</h4>
                             <div class="ltn__footer-blog-item">
                                 <div class="ltn__blog-meta">
                                     <ul>
-                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i> June 24, 2020</li>
+                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i> Juni 24, 2020</li>
                                     </ul>
                                 </div>
-                                <h4 class="ltn__blog-title"><a href="blog-details">The branch of biology that
-                                    deals with the normal.</a></h4>
+                                <h4 class="ltn__blog-title"><a href="blog-details">Cabang biologi itu
+                                berurusan dengan hal yang biasa.</a></h4>
                             </div>
                             <div class="ltn__footer-blog-item">
                                 <div class="ltn__blog-meta">
                                     <ul>
-                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i> June 28, 2020</li>
+                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i> Juni 28, 2020</li>
                                     </ul>
                                 </div>
-                                <h4 class="ltn__blog-title"><a href="blog-details">Electric Car Maintenance, Servicing & Repairs</a></h4>
+                                <h4 class="ltn__blog-title"><a href="blog-details">Perawatan, Servis & Perbaikan Mobil Listrik</a></h4>
                             </div>
                         </div>
                     </div>
@@ -612,12 +534,12 @@
                     <div class="col-md-6 col-12">
                         <div class="site-logo-wrap">
                             <div class="site-logo">
-                                <a href="/"><img src="img/logo-2.png" alt="Logo"></a>
+                                <a href="/ "><img src="img/logo-2.png" alt="Logo"></a>
                             </div>
                             <div class="get-support ltn__copyright-design clearfix">
                                 <div class="get-support-info">
-                                    <h6>Copyright & Design By</h6>
-                                    <h4>Example - <span class="current-year"></span></h4>
+                                    <h6>Hak Cipta & Desain Oleh</h6>
+                                    <h4>Segitiga - Motor<span class="current-year"></span></h4>
                                 </div>
                             </div>
                         </div>

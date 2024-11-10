@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Segitiga Motor</title>
+    <title>Produk - Segitiga Motor</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -47,7 +47,7 @@
                                     <i class="icon-call"></i>
                                 </div>
                                 <div class="get-support-info">
-                                    <h6>Get Support</h6>
+                                    <h6>Dapatkan Dukungan</h6>
                                     <h4><a href="tel:+62 851-7429-6682">+62 851-7429-6682</a></h4>
                                 </div>
                             </div>
@@ -58,20 +58,20 @@
                             <nav>
                                 <div class="ltn__main-menu">
                                     <ul>
-                                        <li class="menu"><a href="/ ">Home</a>
+                                        <li class="menu"><a href="/ ">Beranda</a>
                                         </li>
-                                        <li class="menu"><a href="/about">About</a>
+                                        <li class="menu"><a href="/about">Tentang</a>
                                         </li>
-                                        <li class="menu"><a href="service">Services</a>
+                                        <li class="menu"><a href="service">Servis</a>
                                         </li>
-                                        <li class="menu"><a href="shopcargrid">Product</a>
+                                        <li class="menu"><a href="product">Produk</a>
                                         </li>
-                                        <li class="menu"><a href="portofolio">Gallery</a>
+                                        <li class="menu"><a href="galeri">Galeri</a>
                                         </li>
-                                        <li class="menu"><a href="blog">Article</a>
+                                        <li class="menu"><a href="blog">Artikel</a>
                                         </li>
-                                        <li><a href="contact">Contact</a></li>
-                                        <li class="special-link"><a href="booking">APPOINTMENT</a></li>
+                                        <li><a href="contact">Kontak</a></li>
+                                        <li class="special-link"><a href="booking">Penjadwalan</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -105,19 +105,19 @@
             </div>
             <div class="ltn__utilize-menu">
                 <ul>
-                    <li><a href="#">Home</a>
+                    <li><a href="#">Beranda</a>
                     </li>
-                    <li><a href="about">About</a>
+                    <li><a href="about">Tentang</a>
                     </li>
-                    <li><a href="service">Services</a>
+                    <li><a href="service">Servis</a>
                     </li>
-                    <li><a href="shopcargrid">Product</a>
+                    <li><a href="product">Produk</a>
                     </li>
-                    <li><a href="portofolio">Gallery</a>
+                    <li><a href="galeri">Galeri</a>
                     </li>
-                    <li><a href="blog">Article</a>
+                    <li><a href="blog">Artikel</a>
                     </li>
-                    <li><a href="contact">Contact</a></li>
+                    <li><a href="contact">Kontak</a></li>
                 </ul>
             </div>
             <div class="ltn__social-media-2">
@@ -143,12 +143,12 @@
                 <div class="col-lg-12">
                     <div class="ltn__breadcrumb-inner ltn__breadcrumb-inner-2 justify-content-between">
                         <div class="section-title-area ltn__section-title-2">
-                            <h1 class="section-title white-color">Product</h1>
+                            <h1 class="section-title white-color">Produk</h1>
                         </div>
                         <div class="ltn__breadcrumb-list">
                             <ul>
-                                <li><a href="/ ">Home</a></li>
-                                <li>Product</li>
+                                <li><a href="/ ">Beranda</a></li>
+                                <li>Produk</li>
                             </ul>
                         </div>
                     </div>
@@ -268,23 +268,23 @@
     </div>
     <!-- PRODUCT DETAILS AREA END -->
 
-    <!-- FOOTER AREA START (ltn__footer-2 ltn__footer-color-1) -->
+<!-- FOOTER AREA START (ltn__footer-2 ltn__footer-color-1) -->
     <footer class="ltn__footer-area ltn__footer-2 ltn__footer-color-1">
         <div class="footer-top-area  section-bg-2">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-4 col-md-5">
-                        <div class="footer-widget ltn__footer-timeline-widget ltn__footer-timeline-widget-1 bg-image bg-overlay-theme-black-90" data-bs-bg="img/bg/4.jpg">
-                            <h6 class="ltn__secondary-color text-uppercase">// time shedule</h6>
-                            <h4 class="footer-title">Meet In Timeline.</h4>
+                        <div class="footer-widget ltn__footer-timeline-widget ltn__footer-timeline-widget-1 bg-image bg-overlay-theme-black-90">
+                            <h6 class="ltn__secondary-color text-uppercase">// Jadwal dan waktu</h6>
+                            <h4 class="footer-title">Buka di waktu.</h4>
                             <ul>
-                                <li>Everyday <span>07:00AM - 20:00PM</span></li>
+                                <li>Setiap hari <span>07:00AM - 20:00PM</span></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-5 col-md-7">
                         <div class="footer-widget footer-menu-widget footer-menu-widget-2-column clearfix">
-                            <h4 class="footer-title">Services.</h4>
+                            <h4 class="footer-title">Servis.</h4>
                             <div class="footer-menu">
                                 <ul>
                                     <li><a href="service">Servis CVT</a></li>
@@ -301,23 +301,23 @@
                     </div>
                     <div class="col-xl-3 col-md-6">
                         <div class="footer-widget footer-blog-widget">
-                            <h4 class="footer-title">News Feeds.</h4>
+                            <h4 class="footer-title">Umpan berita.</h4>
                             <div class="ltn__footer-blog-item">
                                 <div class="ltn__blog-meta">
                                     <ul>
-                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i> June 24, 2020</li>
+                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i> Juni 24, 2020</li>
                                     </ul>
                                 </div>
-                                <h4 class="ltn__blog-title"><a href="blog-details">The branch of biology that
-                                    deals with the normal.</a></h4>
+                                <h4 class="ltn__blog-title"><a href="blog-details">Cabang biologi itu
+                                berurusan dengan hal yang biasa.</a></h4>
                             </div>
                             <div class="ltn__footer-blog-item">
                                 <div class="ltn__blog-meta">
                                     <ul>
-                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i> June 28, 2020</li>
+                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i> Juni 28, 2020</li>
                                     </ul>
                                 </div>
-                                <h4 class="ltn__blog-title"><a href="blog-details">Electric Car Maintenance, Servicing & Repairs</a></h4>
+                                <h4 class="ltn__blog-title"><a href="blog-details">Perawatan, Servis & Perbaikan Mobil Listrik</a></h4>
                             </div>
                         </div>
                     </div>
@@ -330,12 +330,12 @@
                     <div class="col-md-6 col-12">
                         <div class="site-logo-wrap">
                             <div class="site-logo">
-                                <a href="index-5"><img src="img/logo-2.png" alt="Logo"></a>
+                                <a href="/ "><img src="img/logo-2.png" alt="Logo"></a>
                             </div>
                             <div class="get-support ltn__copyright-design clearfix">
                                 <div class="get-support-info">
-                                    <h6>Copyright & Design By</h6>
-                                    <h4>Example - <span class="current-year"></span></h4>
+                                    <h6>Hak Cipta & Desain Oleh</h6>
+                                    <h4>Segitiga - Motor<span class="current-year"></span></h4>
                                 </div>
                             </div>
                         </div>

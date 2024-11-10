@@ -47,7 +47,7 @@
                                     <i class="icon-call"></i>
                                 </div>
                                 <div class="get-support-info">
-                                    <h6>Get Support</h6>
+                                    <h6>Dapatkan Dukungan</h6>
                                     <h4><a href="tel:+62 851-7429-6682">+62 851-7429-6682</a></h4>
                                 </div>
                             </div>
@@ -58,31 +58,33 @@
                             <nav>
                                 <div class="ltn__main-menu">
                                     <ul>
-                                        <li class="menu"><a href="/ ">Home</a>
+                                        <li class="menu"><a href="/ ">Beranda</a>
                                         </li>
-                                        <li class="menu"><a href="/about">About</a>
+                                        <li class="menu"><a href="/about">Tentang</a>
                                         </li>
-                                        <li class="menu"><a href="service">Services</a>
+                                        <li class="menu"><a href="service">Servis</a>
                                         </li>
-                                        <li class="menu"><a href="shopcargrid">Product</a>
+                                        <li class="menu"><a href="product">Produk</a>
                                         </li>
-                                        <li class="menu"><a href="portofolio">Gallery</a>
+                                        <li class="menu"><a href="galeri">Galeri</a>
                                         </li>
-                                        <li class="menu"><a href="blog">Article</a>
+                                        <li class="menu"><a href="blog">Artikel</a>
                                         </li>
-                                        <li><a href="contact">Contact</a></li>
-                                        <li class="special-link "><a href="booking">APPOINTMENT</a></li>
+                                        <li><a href="contact">Kontak</a></li>
+                                        <li class="special-link "><a href="booking">Penjadwalan</a></li>
                                        <!-- Jika pengguna sudah login, tampilkan tombol Logout -->
-                                        <li class="special-link">
-                                        @if (Auth::check())
-                                            <form action="{{ route('logout') }}" method="POST" id="logout-form" style="display: inline;">
-                                                @csrf
-                                                <button type="submit" class="btn btn-primary">Logout</button>
-                                            </form>
-                                        @else
-                                            <!-- Jika pengguna belum login, tampilkan tombol Login -->
-                                            <a href="{{ route('login') }}" class="btn btn-primary">Login</a>
-                                        @endif
+                                       <li class="special-link">
+                                            @if (Auth::check())
+                                                <a href="{{ route('logout') }}" class="btn btn" 
+                                                onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                                    Keluar
+                                                </a>
+                                                <form action="{{ route('logout') }}" method="POST" id="logout-form" style="display: none;">
+                                                    @csrf
+                                                </form>
+                                            @else
+                                                <a href="{{ route('login') }}" class="btn btn">Masuk</a>
+                                            @endif
                                         </li>
                                     </ul>
                                 </div>
@@ -117,19 +119,19 @@
             </div>
             <div class="ltn__utilize-menu">
                 <ul>
-                    <li><a href="/">Home</a>
+                    <li><a href="/">Beranda</a>
                     </li>
-                    <li><a href="about">About</a>
+                    <li><a href="about">Tentang</a>
                     </li>
-                    <li><a href="service">Services</a>
+                    <li><a href="service">Servis</a>
                     </li>
-                    <li><a href="shop-car-grid">Product</a>
+                    <li><a href="product">Produk</a>
                     </li>
-                    <li><a href="portfolio">Gallery</a>
+                    <li><a href="galeri">Galeri</a>
                     </li>
-                    <li><a href="blog-grid">Article</a>
+                    <li><a href="blog">Artikel</a>
                     </li>
-                    <li><a href="contact">Contact</a></li>
+                    <li><a href="contact">Kontak</a></li>
                 </ul>
             </div>
             <div class="ltn__social-media-2">
@@ -232,7 +234,7 @@
                                     <div class="about-us-img-info">
                                         <div class="about-us-img-info-inner">
                                             <h1><span class="counter">17</span><span>+</span></h1>
-                                            <h6><span>Years</span> Of Experience</h6>
+                                            <h6><span>Pengalaman</span> Bertahun - tahun</h6>
                                             <span class="dots-bottom"></span>
                                         </div>
                                     </div>
@@ -244,7 +246,7 @@
                 <div class="col-lg-6 align-self-center">
                     <div class="about-us-info-wrap">
                         <div class="section-title-area ltn__section-title-2">
-                            <h6 class="section-subtitle ltn__secondary-color">// About Us</h6>
+                            <h6 class="section-subtitle ltn__secondary-color">// Tentang Kami</h6>
                             <h1 class="section-title">Motor Anda Adalah Prioritas Kami<span>!</span></h1>
                             <p>Selamat datang di Segitiga Motor, bengkel motor yang siap melayani segala kebutuhan perawatan dan perbaikan motor Anda.Segitiga Motor telah menjadi pilihan utama para pengendara motor berkat pelayanan profesional dan kualitas kerja yang dapat diandalkan.</p>
                         </div>
@@ -256,7 +258,7 @@
                                 <img src="img/icons/7.png" alt="Icon Image">
                             </div>
                             <div class="call-us-info">
-                                <p>Call us. We can answer for <a href="contact" class="ltn__secondary-color text-decoration"><strong>all your questions</strong></a>.</p>
+                                <p>Panggil kami. Kita bisa jawab <a href="contact" class="ltn__secondary-color text-decoration"><strong>semua pertanyaan kamu</strong></a>.</p>
                                 <h2><a href="tel:+62 851-7429-6682">+62 851-7429-6682</a> <small></h2>
                             </div>
                         </div>
@@ -274,7 +276,7 @@
                 <div class="col-lg-6">
                     <div class="why-choose-us-info-wrap">
                         <div class="section-title-area ltn__section-title-2">
-                            <h6 class="section-subtitle ltn__secondary-color">// Services</h6>
+                            <h6 class="section-subtitle ltn__secondary-color">// Servis</h6>
                             <h1 class="section-title">Pelayanan Profesional<span>.</span></h1>
                             <p>Anda akan dilayani oleh tim mekanik berpengalaman dan terlatih. Kami selalu memberikan solusi terbaik untuk setiap masalah motor Anda, memastikan kualitas kerja yang memuaskan.</p>
                         </div>
@@ -400,8 +402,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title-area ltn__section-title-2 text-center">
-                        <h6 class="section-subtitle ltn__secondary-color">// Product</h6>
-                        <h1 class="section-title white-color">Our Product<span>.</span></h1>
+                        <h6 class="section-subtitle ltn__secondary-color">// Produk</h6>
+                        <h1 class="section-title white-color">Produk Kami<span>.</span></h1>
                     </div>
                 </div>
             </div>
@@ -432,7 +434,7 @@
                             <img src="img/ban.jpg" alt="#">
                         </div>
                         <div class="service-item-brief">
-                            <h3>>Ban</h3>
+                            <h3>Ban</h3>
                         </div>
                     </div>
                 </div>
@@ -1088,8 +1090,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title-area ltn__section-title-2 text-center">
-                        <h6 class="section-subtitle ltn__secondary-color">//  Gallery</h6>
-                        <h1 class="section-title">We Have Done<span>.</span></h1>
+                        <h6 class="section-subtitle ltn__secondary-color">//  Galeri</h6>
+                        <h1 class="section-title">Kita telah lakukan<span>.</span></h1>
                     </div>
                 </div>
             </div>
@@ -1200,8 +1202,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title-area ltn__section-title-2 text-center">
-                        <h6 class="section-subtitle ltn__secondary-color">//  Testimonials</h6>
-                        <h1 class="section-title">Clients Feedbacks<span>.</span></h1>
+                        <h6 class="section-subtitle ltn__secondary-color">//  Testimoni</h6>
+                        <h1 class="section-title">Tanggapan Klien<span>.</span></h1>
                     </div>
                 </div>
             </div>
@@ -1281,8 +1283,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title-area ltn__section-title-2">
-                        <h6 class="section-subtitle white-color">// blog & insights</h6>
-                        <h1 class="section-title white-color">News Feeds.</h1>
+                        <h6 class="section-subtitle white-color">// blog & wawasan</h6>
+                        <h1 class="section-title white-color">Umpan berita.</h1>
                     </div>
                 </div>
             </div>
@@ -1297,10 +1299,10 @@
                             <div class="ltn__blog-meta">
                                 <ul>
                                     <li class="ltn__blog-author">
-                                        <a href="#"><i class="far fa-user"></i>by: detikOto</a>
+                                        <a href="blog1"><i class="far fa-user"></i>Oleh detikOto</a>
                                     </li>
                                     <li class="ltn__blog-tags">
-                                        <a href="#"><i class="fas fa-tags"></i>Services</a>
+                                        <a href="blog1"><i class="fas fa-tags"></i>Servis</a>
                                     </li>
                                 </ul>
                             </div>
@@ -1312,7 +1314,7 @@
                                     </ul>
                                 </div>
                                 <div class="ltn__blog-btn">
-                                    <a href="blog1">Read more</a>
+                                    <a href="blog1">Lanjut baca</a>
                                 </div>
                             </div>
                         </div>
@@ -1328,10 +1330,10 @@
                             <div class="ltn__blog-meta">
                                 <ul>
                                     <li class="ltn__blog-author">
-                                        <a href="#"><i class="far fa-user"></i>by: Suzuki Indonesia</a>
+                                        <a href="blog2"><i class="far fa-user"></i>Oleh Suzuki Indonesia</a>
                                     </li>
                                     <li class="ltn__blog-tags">
-                                        <a href="#"><i class="fas fa-tags"></i>Services</a>
+                                        <a href="blog2"><i class="fas fa-tags"></i>Servis</a>
                                     </li>
                                 </ul>
                             </div>
@@ -1343,7 +1345,7 @@
                                     </ul>
                                 </div>
                                 <div class="ltn__blog-btn">
-                                    <a href="blog2">Read more</a>
+                                    <a href="blog2">Lanjut baca</a>
                                 </div>
                             </div>
                         </div>
@@ -1359,10 +1361,10 @@
                             <div class="ltn__blog-meta">
                                 <ul>
                                     <li class="ltn__blog-author">
-                                        <a href="#"><i class="far fa-user"></i>by: Wahana Honda</a>
+                                        <a href="blog3"><i class="far fa-user"></i>Oleh Wahana Honda</a>
                                     </li>
                                     <li class="ltn__blog-tags">
-                                        <a href="#"><i class="fas fa-tags"></i>Services</a>
+                                        <a href="blog3"><i class="fas fa-tags"></i>Servis</a>
                                     </li>
                                 </ul>
                             </div>
@@ -1374,7 +1376,7 @@
                                     </ul>
                                 </div>
                                 <div class="ltn__blog-btn">
-                                    <a href="blog3">Read more</a>
+                                    <a href="blog3">Lanjut baca</a>
                                 </div>
                             </div>
                         </div>
@@ -1390,10 +1392,10 @@
                             <div class="ltn__blog-meta">
                                 <ul>
                                     <li class="ltn__blog-author">
-                                        <a href="#"><i class="far fa-user"></i>by: AstraOtoshop</a>
+                                        <a href="blog4"><i class="far fa-user"></i>Oleh AstraOtoshop</a>
                                     </li>
                                     <li class="ltn__blog-tags">
-                                        <a href="#"><i class="fas fa-tags"></i>Services</a>
+                                        <a href="blog4"><i class="fas fa-tags"></i>Servis</a>
                                     </li>
                                 </ul>
                             </div>
@@ -1405,7 +1407,7 @@
                                     </ul>
                                 </div>
                                 <div class="ltn__blog-btn">
-                                    <a href="blog4">Read more</a>
+                                    <a href="blog4">Lanjut baca</a>
                                 </div>
                             </div>
                         </div>
@@ -1421,10 +1423,10 @@
                             <div class="ltn__blog-meta">
                                 <ul>
                                     <li class="ltn__blog-author">
-                                        <a href="#"><i class="far fa-user"></i>by: detikOto</a>
+                                        <a href="blog5"><i class="far fa-user"></i>Oleh detikOto</a>
                                     </li>
                                     <li class="ltn__blog-tags">
-                                        <a href="#"><i class="fas fa-tags"></i>Services</a>
+                                        <a href="blog5"><i class="fas fa-tags"></i>Servis</a>
                                     </li>
                                 </ul>
                             </div>
@@ -1436,7 +1438,7 @@
                                     </ul>
                                 </div>
                                 <div class="ltn__blog-btn">
-                                    <a href="blog5">Read more</a>
+                                    <a href="blog5">Lanjut baca</a>
                                 </div>
                             </div>
                         </div>
@@ -1503,16 +1505,16 @@
                 <div class="row">
                     <div class="col-xl-4 col-md-5">
                         <div class="footer-widget ltn__footer-timeline-widget ltn__footer-timeline-widget-1 bg-image bg-overlay-theme-black-90" data-bs-bg="img/IMG_1293.jpg">
-                            <h6 class="ltn__secondary-color text-uppercase">// time shedule</h6>
-                            <h4 class="footer-title">Meet In Timeline.</h4>
+                            <h6 class="ltn__secondary-color text-uppercase">// jadwal dan waktu</h6>
+                            <h4 class="footer-title">Buka di waktu.</h4>
                             <ul>
-                                <li>Everyday <span>07:00AM - 20:00PM</span></li>
+                                <li>Setiap hari <span>07:00AM - 20:00PM</span></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-5 col-md-7">
                         <div class="footer-widget footer-menu-widget footer-menu-widget-2-column clearfix">
-                            <h4 class="footer-title">Services.</h4>
+                            <h4 class="footer-title">Servis.</h4>
                             <div class="footer-menu">
                                 <ul>
                                     <li><a href="service">Servis CVT</a></li>
@@ -1529,23 +1531,23 @@
                     </div>
                     <div class="col-xl-3 col-md-6">
                         <div class="footer-widget footer-blog-widget">
-                            <h4 class="footer-title">News Feeds.</h4>
+                            <h4 class="footer-title">Umpan berita.</h4>
                             <div class="ltn__footer-blog-item">
                                 <div class="ltn__blog-meta">
                                     <ul>
-                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i> June 24, 2020</li>
+                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i> Juni 24, 2020</li>
                                     </ul>
                                 </div>
-                                <h4 class="ltn__blog-title"><a href="blog-details">The branch of biology that
-                                    deals with the normal.</a></h4>
+                                <h4 class="ltn__blog-title"><a href="blog-details">Cabang biologi itu
+                                berurusan dengan hal yang biasa.</a></h4>
                             </div>
                             <div class="ltn__footer-blog-item">
                                 <div class="ltn__blog-meta">
                                     <ul>
-                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i> June 28, 2020</li>
+                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i> Juni 28, 2020</li>
                                     </ul>
                                 </div>
-                                <h4 class="ltn__blog-title"><a href="blog-details">Electric Car Maintenance, Servicing & Repairs</a></h4>
+                                <h4 class="ltn__blog-title"><a href="blog-details">Perawatan, Servis & Perbaikan Mobil Listrik</a></h4>
                             </div>
                         </div>
                     </div>
@@ -1562,8 +1564,8 @@
                             </div>
                             <div class="get-support ltn__copyright-design clearfix">
                                 <div class="get-support-info">
-                                    <h6>Copyright & Design By</h6>
-                                    <h4>Example - <span class="current-year"></span></h4>
+                                    <h6>Hak Cipta & Desain Oleh</h6>
+                                    <h4>Segitiga - Motor <span class="current-year"></span></h4>
                                 </div>
                             </div>
                         </div>

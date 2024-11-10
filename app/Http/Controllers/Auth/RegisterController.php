@@ -24,14 +24,20 @@ class RegisterController extends Controller
             'password' => 'required|string|min:8|confirmed', // Menggunakan konfirmasi password
         ]);
 
-        // Buat user baru
-        User::create([
-            'firstname' => $request->firstname,
-            'lastname' => $request->lastname,
-            'email' => $request->email,
-            'password' => Hash::make($request->password), // Hash password
-        ]);
+        try {
+            // Buat user baru
+            User::create([
+                'firstname' => $request->firstname,
+                'lastname' => $request->lastname,
+                'email' => $request->email,
+                'password' => Hash::make($request->password), // Hash password
+            ]);
 
-        return redirect()->route('login')->with('success', 'Registration successful!'); // Arahkan ke halaman login setelah registrasi
+            // Redirect ke halaman login dengan pesan sukses
+            return redirect()->route('login')->with('success', 'Registrasi berhasil!');
+        } catch (\Exception $e) {
+            // Redirect kembali ke halaman register dengan pesan kesalahan
+            return redirect()->back()->withErrors(['error' => 'Registrasi gagal. Silakan coba lagi.']);
+        }
     }
 }

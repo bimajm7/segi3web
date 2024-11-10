@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Segitiga Motor</title>
+    <title> Penjadwalan - Segitiga Motor</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -47,7 +47,7 @@
                                     <i class="icon-call"></i>
                                 </div>
                                 <div class="get-support-info">
-                                    <h6>Get Support</h6>
+                                    <h6>Dapatkan Dukungan</h6>
                                     <h4><a href="tel:+62 851-7429-6682">+62 851-7429-6682</a></h4>
                                 </div>
                             </div>
@@ -58,20 +58,20 @@
                             <nav>
                                 <div class="ltn__main-menu">
                                     <ul>
-                                        <li class="menu"><a href="index-5.html">Home</a>
+                                    <li class="menu"><a href="/ ">Beranda</a>
                                         </li>
-                                        <li class="menu"><a href="about.html">About</a>
+                                        <li class="menu"><a href="/about">Tentang</a>
                                         </li>
-                                        <li class="menu"><a href="service.html">Services</a>
+                                        <li class="menu"><a href="service">Servis</a>
                                         </li>
-                                        <li class="menu"><a href="shop-car-grid.html">Product</a>
+                                        <li class="menu"><a href="product">Produk</a>
                                         </li>
-                                        <li class="menu"><a href="portfolio.html">Gallery</a>
+                                        <li class="menu"><a href="galeri">Galeri</a>
                                         </li>
-                                        <li class="menu"><a href="blog-grid.html">Article</a>
+                                        <li class="menu"><a href="blog">Artikel</a>
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li class="special-link"><a href="appointment.html">GET APPOINTMENT</a></li>
+                                        <li><a href="contact">Kontak</a></li>
+                                        <li class="special-link"><a href="booking">PENJADWALAN</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -104,19 +104,19 @@
             </div>
             <div class="ltn__utilize-menu">
                 <ul>
-                    <li><a href="index-5.html">Home</a>
+                    <li><a href="#">Beranda</a>
                     </li>
-                    <li><a href="about.html">About</a>
+                    <li><a href="about">Tentang</a>
                     </li>
-                    <li><a href="service.html">Services</a>
+                    <li><a href="service">Servis</a>
                     </li>
-                    <li><a href="shop-car-grid.html">Product</a>
+                    <li><a href="product">Produk</a>
                     </li>
-                    <li><a href="portfolio.html">Gallery</a>
+                    <li><a href="galeri">Galeri</a>
                     </li>
-                    <li><a href="blog-grid.html">Article</a>
+                    <li><a href="blog">Artikel</a>
                     </li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact">Kontak</a></li>
                 </ul>
             </div>
             <div class="ltn__social-media-2">
@@ -142,13 +142,13 @@
                 <div class="col-lg-12">
                     <div class="ltn__breadcrumb-inner ltn__breadcrumb-inner-2 justify-content-between">
                         <div class="section-title-area ltn__section-title-2">
-                            <h6 class="section-subtitle ltn__secondary-color">//  Welcome to our company</h6>
-                            <h1 class="section-title white-color">Schedule Appointment</h1>
+                            <h6 class="section-subtitle ltn__secondary-color">//  Selamat Datang di Bengkel Kami</h6>
+                            <h1 class="section-title white-color">Jadwal</h1>
                         </div>
                         <div class="ltn__breadcrumb-list">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li>Appointment</li>
+                                <li><a href="index.html">Beranda</a></li>
+                                <li>Penjadwalan</li>
                             </ul>
                         </div>
                     </div>
@@ -166,7 +166,7 @@
                     <div class="ltn__appointment-inner">
                     <form action="{{ route('bookings') }}" method="POST">
                         @csrf
-                        <h6>Vehicles Information</h6>
+                        <h6>Informasi Kendaraan</h6>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="input-item input-item-name ltn__custom">
@@ -191,7 +191,7 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-6">
-                                <h6>First Choice</h6>
+                                <h6>Pilihan Pertama</h6>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="input-item ltn__datepicker">
@@ -227,7 +227,7 @@
                             <textarea name="ltn__message" placeholder="Enter message"></textarea>
                         </div>
                         <div class="btn-wrapper text-center mt-0">
-                            <button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">Submit Now</button>
+                            <button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">Kirim Sekarang</button>
                         </div>
                     </form>
                     </div>
@@ -244,71 +244,49 @@
                 <div class="row">
                     <div class="col-xl-4 col-md-5">
                         <div class="footer-widget ltn__footer-timeline-widget ltn__footer-timeline-widget-1 bg-image bg-overlay-theme-black-90" data-bs-bg="img/bg/4.jpg">
-                            <h6 class="ltn__secondary-color text-uppercase">// time shedule</h6>
-                            <h4 class="footer-title">Meet In Timeline.</h4>
+                            <h6 class="ltn__secondary-color text-uppercase">// Jadwal dan waktu</h6>
+                            <h4 class="footer-title">Buka di waktu.</h4>
                             <ul>
-                                <li>Monday <span>07:00AM - 20:00PM</span></li>
-                                <li>Tuesday <span>07:00AM - 20:00PM</span></li>
-                                <li>Wednesday <span>07:00AM - 20:00PM</span></li>
-                                <li>Thursday <span>07:00AM - 20:00PM</span></li>
-                                <li>Friday <span>07:00AM - 20:00PM</span></li>
-                                <li>Saturday <span>07:00AM - 20:00PM</span></li>
-                                <li>Sunday <span>Official Holiday</span></li>
+                                <li>Setiap hari <span>07:00AM - 20:00PM</span></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-5 col-md-7">
                         <div class="footer-widget footer-menu-widget footer-menu-widget-2-column clearfix">
-                            <h4 class="footer-title">Services.</h4>
+                            <h4 class="footer-title">Servis.</h4>
                             <div class="footer-menu">
                                 <ul>
-                                    <li><a href="service.html">Engine Diagnostics</a></li>
-                                    <li><a href="service.html">Vehicles Damaged</a></li>
-                                    <li><a href="service.html">Air Conditioning Evac</a></li>
-                                    <li><a href="service.html">Anti Lock Brake Service</a></li>
-                                    <li><a href="service.html">Computer Diagnostics</a></li>
-                                    <li><a href="service.html">Performance Upgrades</a></li>
+                                    <li><a href="service">Servis CVT</a></li>
+                                    <li><a href="service">Servis Injeksi</a></li>
                                 </ul>
                             </div>
                             <div class="footer-menu">
                                 <ul>
-                                    <li><a href="service.html">Car Wash & Cleaning</a></li>
-                                    <li><a href="service.html">Choose your Repairs</a></li>
-                                    <li><a href="service.html">Free Consultancy</a></li>
-                                    <li><a href="service.html">Emergency Time</a></li>
+                                    <li><a href="service">Servsi Carbu</a></li>
+                                    <li><a href="service">Servis Throttle Body</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-6">
                         <div class="footer-widget footer-blog-widget">
-                            <h4 class="footer-title">News Feeds.</h4>
+                            <h4 class="footer-title">Umpan berita.</h4>
                             <div class="ltn__footer-blog-item">
                                 <div class="ltn__blog-meta">
                                     <ul>
-                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i> June 24, 2020</li>
+                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i> Juni 24, 2020</li>
                                     </ul>
                                 </div>
-                                <h4 class="ltn__blog-title"><a href="blog-details.html">The branch of biology that
-                                    deals with the normal.</a></h4>
+                                <h4 class="ltn__blog-title"><a href="blog-details">Cabang biologi itu
+                                berurusan dengan hal yang biasa.</a></h4>
                             </div>
                             <div class="ltn__footer-blog-item">
                                 <div class="ltn__blog-meta">
                                     <ul>
-                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i> June 24, 2020</li>
+                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i> Juni 28, 2020</li>
                                     </ul>
                                 </div>
-                                <h4 class="ltn__blog-title"><a href="blog-details.html">The branch of biology that
-                                    deals with the normal.</a></h4>
-                            </div>
-                            <div class="ltn__footer-blog-item">
-                                <div class="ltn__blog-meta">
-                                    <ul>
-                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i> June 24, 2020</li>
-                                    </ul>
-                                </div>
-                                <h4 class="ltn__blog-title"><a href="blog-details.html">The branch of biology that
-                                    deals with the normal.</a></h4>
+                                <h4 class="ltn__blog-title"><a href="blog-details">Perawatan, Servis & Perbaikan Mobil Listrik</a></h4>
                             </div>
                         </div>
                     </div>
@@ -321,12 +299,12 @@
                     <div class="col-md-6 col-12">
                         <div class="site-logo-wrap">
                             <div class="site-logo">
-                                <a href="index.html"><img src="img/logo-2.png" alt="Logo"></a>
+                                <a href="/ "><img src="img/logo-2.png" alt="Logo"></a>
                             </div>
                             <div class="get-support ltn__copyright-design clearfix">
                                 <div class="get-support-info">
-                                    <h6>Copyright & Design By</h6>
-                                    <h4>Company - <span class="current-year"></span></h4>
+                                    <h6>Hak Cipta & Desain Oleh</h6>
+                                    <h4>Segitiga - Motor<span class="current-year"></span></h4>
                                 </div>
                             </div>
                         </div>
@@ -334,9 +312,11 @@
                     <div class="col-md-6 col-12 align-self-center">
                         <div class="ltn__copyright-menu text-end">
                             <ul>
-                                <li><a href="#">Terms & Conditions</a></li>
-                                <li><a href="#">Claim</a></li>
-                                <li><a href="#">Privacy & Policy</a></li>
+                                <li><a href="#" title="Shop"><i class="fas fa-shopping-cart"></i></a></li>
+                                <li><a href="https://www.instagram.com/segitigamotorbgr_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.tiktok.com/@segitigamotor_bengkel?_t=8pvZaNNw0S0&_r=1" title="TikTok"><i class="fab fa-tiktok"></i></a></li>
+                                <li><a href="mailto:Segitigamotor024@gmail.com" title="Email"><i class="fas fa-envelope"></i></a></li>
+                                <li><a href="tel:+6285174296682" title="Telephone"><i class="fas fa-phone"></i></a></li>
                             </ul>
                         </div>
                     </div>
