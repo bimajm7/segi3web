@@ -25,14 +25,14 @@ class PageController extends Controller
         return view('blog'); // Mengembalikan view contact
     }
 
-    public function shopcargrid()
+    public function product()
     {
-        return view('shopcargrid'); // Mengembalikan shopcargrid
+        return view('product'); // Mengembalikan shopcargrid
     }
 
-    public function portofolio()
+    public function galeri()
     {
-        return view('portofolio'); // Mengembalikan portofolio
+        return view('galeri'); // Mengembalikan portofolio
     }
 
     public function booking()
