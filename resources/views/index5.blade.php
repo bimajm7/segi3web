@@ -133,6 +133,21 @@
                     <li><a href="blog">Artikel</a>
                     </li>
                     <li><a href="contact">Kontak</a></li>
+                    <!-- Jika pengguna sudah login, tampilkan tombol Logout -->
+                    <li class="special-link">
+                         @if (Auth::check())
+                            <a href="{{ route('logout') }}" class="btn btn" 
+                            onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                Keluar
+                            </a>
+                            <form action="{{ route('logout') }}" method="POST" id="logout-form" style="display: none;">
+                                @csrf
+                            </form>
+                         @else
+                            <a href="{{ route('login') }}" class="btn btn">Masuk</a>
+                         @endif
+                    </li>
+
                 </ul>
             </div>
             <div class="ltn__social-media-2">
